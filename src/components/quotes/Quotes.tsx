@@ -31,7 +31,7 @@ const Quotes: React.FC = () => {
 
   return (
     <article className="quotes">
-      <span className="quotes__mark">“</span>
+
       <p className="quotes__text">{text}</p>
       <hr className="quotes__line" />
       <span className="quotes__author">{author}</span>

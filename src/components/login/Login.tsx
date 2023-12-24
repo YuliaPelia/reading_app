@@ -6,10 +6,10 @@ import './login.scss'
 const Login = () => {
   return (
     <section className="login">
-      <div className="fl-container">
+      {/* <div className="fl-container"> */}
         <Form />
         <Quotes/>
-      </div>
+      {/* </div> */}
     </section>
   );
 };

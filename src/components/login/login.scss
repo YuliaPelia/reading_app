@@ -1,4 +1,13 @@
 .login {
-    height: 850px;
-.fl-container{display: flex; justify-content: space-between;}
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  @media (min-width: 768px) {
+    justify-content: space-between;
+  }
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
