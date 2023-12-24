@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "../formLogin/FormLogin";
+import Quotes from "../quotes/Quotes";
 import './login.scss'
 
 const Login = () => {
@@ -7,6 +8,7 @@ const Login = () => {
     <section className="login">
       <div className="fl-container">
         <Form />
+        <Quotes/>
       </div>
     </section>
   );
