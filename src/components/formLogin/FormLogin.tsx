@@ -1,8 +1,16 @@
 import React from "react";
-import google from "../../assets/icons/google-icon.svg";
-import './formLogin.scss';
+import { useNavigate } from "react-router-dom";
 
 const FormLogin = () => {
+
+  // const {loggeIn, email} = props;
+
+  const navigate = useNavigate();
+
+  const onButtonClick = () => {
+
+  }
+
   return (
     <div className="backdrop">
       <form className="form-login">
@@ -26,7 +34,7 @@ const FormLogin = () => {
             className="form-login__input"
           />
         </label>
-        <button className="form-login--submit form__btn">Увійти</button>
+        <button onClick={onButtonClick} className="form-login--submit form__btn">Увійти</button>
         <a href="/" className="form-login__link--registration">
           Реєстрація
         </a>

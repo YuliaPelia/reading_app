@@ -1,13 +1,13 @@
 import React from "react";
 import Form from "../formLogin/FormLogin";
 import Quotes from "../quotes/Quotes";
-import './login.scss'
+import './login.scss';
 
 const Login = () => {
   return (
     <section className="login">
       {/* <div className="fl-container"> */}
-        <Form />
+        <Form  />
         <Quotes/>
       {/* </div> */}
     </section>
